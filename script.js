@@ -36,4 +36,4 @@ else if(hour>=20 || hour<4)
 {
     img.src="images.goonight.jpg"
 }
-};
+}
