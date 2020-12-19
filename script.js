@@ -34,6 +34,8 @@ else if( hour>=16 || hour<20)
 }
 else if(hour>=20 || hour<4)
 {
-    img.src="images.goonight.jpg"
+    img.src="images.goonight"
 }
-}
+};
+
+setInterval( settime, 1000);
