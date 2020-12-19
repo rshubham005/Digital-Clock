@@ -24,18 +24,16 @@ if(hour>=4 && hour<12)
 {
     img.src="images/goodmorning.jpg"
 }
-else if(hour>=12 && hour<20)
+else if(hour>=12 && hour<16)
 {
   img.src ="images/goodafternoon.jpg"   
 }
-else if( hour>=20 || hour<4)
+else if( hour>=16 || hour<20)
 {
-    img.src="images/goodnight.jpg"
+    img.src="images/evening.jpg"
+}
+else if(hour>=20 || hour<4)
+{
+    img.src="images.goonight.jpg"
 }
 };
-
-setInterval( settime, 1000);
-function fire()
-{
-    createFirework(53,169,7,3,50,50,19,32,false,true);
-}
