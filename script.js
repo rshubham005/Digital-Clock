@@ -32,7 +32,7 @@ else if( hour>=16 || hour<20)
 {
     img.src="images/evening.jpg"
 }
-else if(hour>=20 || hour<4)
+else if(hour>19 || hour<4)
 {
     img.src="images/goodnight.jpg"
 }
