@@ -14,6 +14,7 @@ if(hour>=0 && hour<12)
 else if(hour>=12 && hour<=23)
 {
  merdian="PM"
+ ele.innerHTML = hour+":"+min+":"+sec+" "+merdian;
  if(hour>12)
  {
  ele.innerHTML = Number(hour-12)+":"+min+":"+sec+" "+merdian;
